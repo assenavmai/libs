@@ -1,5 +1,8 @@
 #include "List.h"
 
+/*Author: Vanessa White
+  May, 2015
+*/
 List * createList(int (*compare)(void* data1, void* data2), void (*destroy)(void*)) {
 
 	List * this;
